@@ -25,14 +25,15 @@
       <a href="#" class="logo">Tasty</a>
       <div class="nav__menu">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Menu</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About-us">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </div>
     </header>
-    <main class="two__grids main__page1 margin__top">
+    <main class="two__grids main__page1 margin__top page1" id="Home">
       <div class="main__page1__left">
         <h1>Tasty Food</h1>
         <h2>Try the best food here</h2>
@@ -40,7 +41,7 @@
       </div>
       <img src="Images/home.png" alt="" id="first-image" />
     </main>
-    <section class="main__page1 main__page2 two__grids margin__top2">
+    <section class="main__page1 main__page2 two__grids margin__top2 page2" id="About-us">
       <img src="Images/about.jpg" alt="" class="about__img" />
       <article class="main__page2">
         <p>About us</p>
@@ -52,7 +53,7 @@
         <button id="Explorebtn" class="btn-animation">Explore history</button>
       </article>
     </section>
-    <section class="page3">
+    <section class="page3" id="Services">
       <p>Offerings</p>
       <h1 id="Amaze">Our amazing services</h1>
       <article class="three__grid">
@@ -82,9 +83,9 @@
         </div>
       </article>
     </section>
-    <section class="page3 page4">
+    <section class="page3 page4"id="menu">
       <p>Special</p>
-      <h1>Menu of the week</h1>
+      <h1 >Menu of the week</h1>
       <article class="three__grid__menu">
         <div class="grid__items">
           <img src="Images/plate1.png" alt="" />
@@ -109,23 +110,25 @@
         </div>
       </article>
     </section>
-    <section class="page5">
+    <section class="page5" id="contact">
+     
       <div class="connect__page">
+        <button class="btn-animation connect__me">Talk to me</button>
+      </div> <div class="connect__page">
         <a>Connect with me</a>
         <h1>I am Vinay Kishore</h1>
         <p>
           I am an Undergrad at Indian Institute of Information Technology,<br> Design and Manufacturing Kancheepuram. Feel free to contact me.
         </p>
       </div>
-      <div class="connect__page">
-        <button class="btn-animation connect__me">Talk to me</button>
-      </div>
       <article class="three__grid__menu"></article>
     </section>
     <section class="page6">
       <div class="connect__page1">
         <article class="column__1">
-          <h1>Tasty Food</h1>
+          <a href="#">
+            <h1>Tasty Food</h1>
+          </a>
           <a href="#">Restaurant</a>
           <ul class="social__handles">
             <i class="fab fa-facebook-square"></i>
@@ -154,15 +157,17 @@
         <article class="column__3">
           <h1>Never stop</h1>
           <ul class="social__handles">
-            <li><p>Learning</p></li>
-            <li><p>Practicing</p></li>
-            <li><p>Teaching</p></li>
-            <li><p>Enjoying</p></li>
+            <li><p>Learning Tech</p></li>
+            <li><p>Practicing Stuff</p></li>
+            <li><p>Teaching To others</p></li>
+            <li><p>Enjoying Life</p></li>
           </ul>
         </article>
     </section>
-    <footer>
-      <i class="far fa-copyright"></i><span>2021 Vinay Kishore. All right reserved</span>
-    </footer>
+    
+      <footer>
+        <i class="far fa-copyright"></i><span>2021 Vinay Kishore. All right reserved</span>
+      </footer>
+    
   </body>
 </html>
